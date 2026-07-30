@@ -5,7 +5,7 @@ import Icon from "../common/Icons";
 const Roadmap = () => {
   return (
     <div>
-      <div className="pt-16.25 sm:pt-20 md:pt-25 lg:pt-33 px-4 pb-[95.96px] sm:pb-25 md:pb-[116.6px] text-center max-w-[1074.1px] w-full mx-auto ">
+      <div className="pt-16.25 sm:pt-20 md:pt-25 lg:pt-33 px-4 pb-[95.96px] sm:pb-25 md:pb-[116.6px] text-center max-w-[1074.1px] w-full mx-auto overflow-hidden">
         <p className="text-storm-gray font-normal text-14 sm:text-18 md:text-xl leading-129 sm:leading-117">
           The Best Business Partnerships
         </p>
@@ -14,7 +14,7 @@ const Roadmap = () => {
         </h2>
         <div className="min-[960px]:flex hidden flex-row justify-between  mt-23.25 text-center">
           <div className="flex flex-col relative z-20 items-center">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapone.png"}
                 width={136.28}
@@ -31,7 +31,7 @@ const Roadmap = () => {
             </p>
           </div>
           <div className="flex flex-col mt-[129.1px] relative z-20 items-center">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmaptwo.png"}
                 width={136.28}
@@ -46,7 +46,7 @@ const Roadmap = () => {
             </p>
           </div>
           <div className="flex flex-col relative z-20 items-center">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapthree.png"}
                 width={136.28}
@@ -61,7 +61,7 @@ const Roadmap = () => {
             </p>
           </div>
           <div className="flex flex-col relative z-20 mt-[141.1px] items-center">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapfour.png"}
                 width={136.28}
@@ -76,7 +76,7 @@ const Roadmap = () => {
             </p>
           </div>
           <div className="flex flex-col relative z-20 items-center">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapfive.png"}
                 width={136.28}
@@ -98,7 +98,7 @@ const Roadmap = () => {
 
         <div className="flex relative min-[960px]:hidden max-w-[530.1px] w-full mx-auto gap-[53.83px] flex-wrap flex-col justify-between mt-[41.71px] sm:mt-15 md:mt-18.75 lg:mt-23 text-start">
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapone.png"}
                 width={136.28}
@@ -115,7 +115,7 @@ const Roadmap = () => {
           </div>
 
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmaptwo.png"}
                 width={136.28}
@@ -132,7 +132,7 @@ const Roadmap = () => {
           </div>
 
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapthree.png"}
                 width={136.28}
@@ -148,7 +148,7 @@ const Roadmap = () => {
             </p>
           </div>
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapfour.png"}
                 width={136.28}
@@ -164,7 +164,7 @@ const Roadmap = () => {
             </p>
           </div>
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <div className=" relative">
+            <div className=" relative shrink-0">
               <Image
                 src={"/assets/images/webg/roadmapfive.png"}
                 width={136.28}
