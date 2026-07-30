@@ -14,51 +14,78 @@ const Roadmap = () => {
         </h2>
         <div className="min-[960px]:flex hidden flex-row justify-between  mt-23.25 text-center">
           <div className="flex flex-col relative z-20 items-center">
-            <Image
-              src={"/assets/images/webg/roadmapone.png"}
-              width={136.28}
-              height={105.63}
-            />
+            <div className=" relative">
+              <Image
+                src={"/assets/images/webg/roadmapone.png"}
+                width={136.28}
+                height={105.63}
+
+              />
+              <div className="absolute inset-0 max-w-25.25 top-0 -left-9 h-25.25 z-[-1]">
+                <Icon icon={"roadmapshadow"} />
+              </div>
+            </div>
+
             <p className="max-w-[133.1px] text-charcoal-green font-normal leading-138 mt-8.25">
               Describe your Business
             </p>
           </div>
           <div className="flex flex-col mt-[129.1px] relative z-20 items-center">
-            <Image
-              src={"/assets/images/webg/roadmaptwo.png"}
-              width={136.28}
-              height={105.63}
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmaptwo.png"}
+                width={136.28}
+                height={105.63}
+              />
+              <div className="absolute inset-0 max-w-25.25 top-0 -left-9 h-25.25 z-[-1]">
+                <Icon icon={"roadmapshadow"} />
+              </div>
+            </div>
             <p className="max-w-[204.1px] text-charcoal-green font-normal leading-138 mt-8.25">
               Pseudonymously Publish your Requirement{" "}
             </p>
           </div>
           <div className="flex flex-col relative z-20 items-center">
-            <Image
-              src={"/assets/images/webg/roadmapthree.png"}
-              width={136.28}
-              height={105.63}
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapthree.png"}
+                width={136.28}
+                height={105.63}
+              />
+              <div className="absolute inset-0 max-w-25.25 top-0 -left-9 h-25.25 z-[-1]">
+                <Icon icon={"roadmapshadow"} />
+              </div>
+            </div>
             <p className="max-w-[177.1px] text-charcoal-green font-normal leading-138 mt-[35.51px]">
               Schedule Introductions with Providers of Interest
             </p>
           </div>
           <div className="flex flex-col relative z-20 mt-[141.1px] items-center">
-            <Image
-              src={"/assets/images/webg/roadmapfour.png"}
-              width={136.28}
-              height={105.63}
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapfour.png"}
+                width={136.28}
+                height={105.63}
+              />
+              <div className="absolute inset-0 max-w-25.25 top-0 -left-9 h-25.25 z-[-1]">
+                <Icon icon={"roadmapshadow"} />
+              </div>
+            </div>
             <p className="max-w-[161.1px] text-charcoal-green font-normal leading-138 mt-8.25">
               Negotiate Engagement Terms Directly{" "}
             </p>
           </div>
           <div className="flex flex-col relative z-20 items-center">
-            <Image
-              src={"/assets/images/webg/roadmapfive.png"}
-              width={136.28}
-              height={105.63}
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapfive.png"}
+                width={136.28}
+                height={105.63}
+              />
+              <div className="absolute inset-0 max-w-25.25 top-0 -left-9 h-25.25 z-[-1]">
+                <Icon icon={"roadmapshadow"} />
+              </div>
+            </div>
             <p className="max-w-[149.1px] text-charcoal-green font-normal leading-138 mt-[19.06px]">
               Benefit from Pay-on-Time Rewards.
             </p>
@@ -71,58 +98,83 @@ const Roadmap = () => {
 
         <div className="flex relative min-[960px]:hidden max-w-[530.1px] w-full mx-auto gap-[53.83px] flex-wrap flex-col justify-between mt-[41.71px] sm:mt-15 md:mt-18.75 lg:mt-23 text-start">
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center">
-            <Image
-              src={"/assets/images/webg/roadmapone.png"}
-              width={136.28}
-              height={105.63}
-              className="sm:w-[136.28px] w-[76.87px] h-[68.15px] sm:h-[105.63px]"
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapone.png"}
+                width={136.28}
+                height={105.63}
+                className="sm:w-[136.28px] w-[76.87px] h-[68.15px] sm:h-[105.63px]"
+              />
+              <div className="absolute inset-0 max-w-[56.97px] top-0 -left-9 h-[56.97px] z-[-1]">
+                <Icon icon={"roadmapshadowshort"} />
+              </div>
+            </div>
             <p className=" text-charcoal-green font-normal text-18 leading-138">
               Describe your Business
             </p>
           </div>
 
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <Image
-              src={"/assets/images/webg/roadmaptwo.png"}
-              width={136.28}
-              height={105.63}
-              className="sm:w-[136.28px] w-[76.87px] h-[69.97px] sm:h-[105.63px]"
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmaptwo.png"}
+                width={136.28}
+                height={105.63}
+                className="sm:w-[136.28px] w-[76.87px] h-[69.97px] sm:h-[105.63px]"
+              />
+              <div className="absolute inset-0 max-w-[56.97px] top-0 -left-9 h-[56.97px] z-[-1]">
+                <Icon icon={"roadmapshadowshort"} />
+              </div>
+            </div>
             <p className=" text-charcoal-green font-normal text-18 leading-138 ">
               Pseudonymously Publish your Requirement{" "}
             </p>
           </div>
 
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <Image
-              src={"/assets/images/webg/roadmapthree.png"}
-              width={136.28}
-              height={105.63}
-              className="sm:w-[136.28px] w-[76.87px] h-[66.64px] sm:h-[105.63px]"
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapthree.png"}
+                width={136.28}
+                height={105.63}
+                className="sm:w-[136.28px] w-[76.87px] h-[66.64px] sm:h-[105.63px]"
+              />
+              <div className="absolute inset-0 max-w-[56.97px] top-0 -left-9 h-[56.97px] z-[-1]">
+                <Icon icon={"roadmapshadowshort"} />
+              </div>
+            </div>
             <p className="] text-charcoal-green font-normal text-18 leading-138 ">
               Schedule Introductions with Providers of Interest
             </p>
           </div>
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <Image
-              src={"/assets/images/webg/roadmapfour.png"}
-              width={136.28}
-              height={105.63}
-              className="sm:w-[136.28px] w-[76.87px] h-[60.46px] sm:h-[105.63px]"
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapfour.png"}
+                width={136.28}
+                height={105.63}
+                className="sm:w-[136.28px] w-[76.87px] h-[60.46px] sm:h-[105.63px]"
+              />
+              <div className="absolute inset-0 max-w-[56.97px] top-0 -left-9 h-[56.97px] z-[-1]">
+                <Icon icon={"roadmapshadowshort"} />
+              </div>
+            </div>
             <p className=" text-charcoal-green font-normal text-18 leading-138 ">
               Negotiate Engagement Terms Directly{" "}
             </p>
           </div>
           <div className="flex flex-row gap-[46.14px] relative z-20 items-center ">
-            <Image
-              src={"/assets/images/webg/roadmapfive.png"}
-              width={136.28}
-              height={105.63}
-              className="sm:w-[136.28px] w-[76.87px] h-[69.96px] sm:h-[105.63px]"
-            />
+            <div>
+              <Image
+                src={"/assets/images/webg/roadmapfive.png"}
+                width={136.28}
+                height={105.63}
+                className="sm:w-[136.28px] w-[76.87px] h-[69.96px] sm:h-[105.63px]"
+              />
+              <div className="absolute inset-0 max-w-[56.97px] top-0 -left-9 h-[56.97px] z-[-1]">
+                <Icon icon={"roadmapshadowshort"} />
+              </div>
+            </div>
             <p className=" text-charcoal-green font-normal text-18 leading-138 ">
               Benefit from Pay-on-Time Rewards.
             </p>
