@@ -2,9 +2,9 @@ import React from 'react'
 
 const Heading = ({children, vari, className = "" }) => {
     const variants = {
-        pri: "text-charcoal-green xl:text-46 lg:text-[42px] md:text-[38px] sm:text-[36px] text-[30px]",
-        sec: "text-charcoal-green lg:text-45 md:text-[36px] sm:text-[30px] text-[25px]",
-        dan: "text-white lg:text-45 md:text-[36px] sm:text-[30px] text-[25px]",
+        pri: "text-charcoal-green xl:text-46 lg:text-42 md:text-38 sm:text-36 text-30",
+        sec: "text-charcoal-green lg:text-45 md:text-36 sm:text-30 text-25",
+        dan: "text-white lg:text-45 md:text-36 sm:text-30 text-25",
         
         
     }

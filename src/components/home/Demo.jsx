@@ -6,7 +6,8 @@ import Image from "next/image";
 const Demo = () => {
   return (
     <section className=" relative px-4 bg-cadet-gray max-md:pb-[38.08px] lg:pt-[102.6px] md:pt-20 sm:pt-15 pt-11.25 lg:pb-[104.07px] md:pb-20 sm:pb-15 pb-[38.08px">
-      <Image src={"/assets/images/webg/growth-left.webp"} width={53.66} height={60.55} alt='growth-left' className=" absolute top-14 left-9 animate-benefit-left" />
+      <Image src={"/assets/images/webg/growth-left.webp"} width={53.66} height={60.55} alt='growth-left' className=" absolute top-14 left-9 max-sm:hidden animate-benefit-left" />
+      <Image src={"/assets/images/webg/demo-left.webp"} width={36} height={38.48} alt='demo-left' className=" absolute top-6 left-1 sm:hidden animate-benefit-left" />
       <div className="max-w-[1181.42px] w-full mx-auto flex md:flex-row flex-col items-center justify-center ">
         <div className="max-w-149 w-full flex flex-col max-md:text-center max-md:justify-center max-md:items-center">
           <Heading vari={"dan"}>
