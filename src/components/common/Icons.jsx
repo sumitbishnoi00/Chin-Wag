@@ -90,6 +90,21 @@ const Icon = ({ icon, className, pathName }) => {
       </svg>
 
     ),
+    benefitshadow: (
+      <svg width="281" height="281" viewBox="0 0 281 281" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.87" filter="url(#filter0_f_5301_1854)">
+          <circle cx="140.273" cy="140.274" r="61.051" fill="#B8D8D8" />
+        </g>
+        <defs>
+          <filter id="filter0_f_5301_1854" x="-5.34058e-05" y="0.000434875" width="280.546" height="280.546" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="39.6111" result="effect1_foregroundBlur_5301_1854" />
+          </filter>
+        </defs>
+      </svg>
+
+    ),
   };
 
   return icons[icon];
