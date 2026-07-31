@@ -11,7 +11,7 @@ const Reverse = () => {
       <Image src={"/assets/images/webg/reverse-left.webp"} width={26.91} height={25.31} alt="reverse-left" className="w-11 h-[41.36px] md:hidden absolute left-4 bottom-198 animate-benefit-left" />
       <Image src={"/assets/images/webg/reverse-right.webp"} width={66.6} height={78} alt="reverse-right" className=" absolute right-13 bottom-96 max-md:hidden animate-benefit-right" />
       <Image src={"/assets/images/webg/growth-left.webp"} width={24.81} height={26.32} alt="reverse-right" className=" absolute right-5 top-90 md:hidden animate-benefit-right" />
-      <div className="max-w-[1177.32px] w-full mx-auto flex flex-col items-center justify-end lg:gap-[145.3px] md:gap-35 sm:gap-33.75 gap-[131.52px]">
+      <div className="max-w-[1177.32px] w-full mx-auto flex flex-col items-center justify-end lg:gap-[145.3px] md:gap-30 sm:gap-25 gap-[131.52px]">
         {FEATURES_DATA.map((item) => (
           <FeatureSection key={item.id} {...item} />
         ))}

@@ -7,7 +7,7 @@ import Icon from '../common/Icons'
 
 const Benefit = () => {
   return (
-    <section className=' relative px-7.5 md:px-4 pt-[71.87px] sm:pt-20 md:pt-30 lg:pt-40'>
+    <section className=' relative px-7.5 md:px-4 pt-[71.87px] sm:pt-20 md:pt-20 lg:pt-40'>
       <Image src={"/assets/images/webg/benefit-left.webp"} width={66.6} height={78} alt='benefit-left' className='w-[37.43px] sm:w-[66.6px] h-[42.94px] sm:h-19.5  absolute left-0 md:left-7 xl:left-19 top-38 md:top-37 lg:top-50 animate-benefit-left' />
       <Image src={"/assets/images/webg/benefit-right.webp"} width={74} height={74} alt='benefit-right' className='w-11 md:w-18.5 h-[41.36px] md:h-18.5 absolute right-6 xl:right-11 -bottom-15 xl:bottom-0 animate-benefit-right' />
       <div className='max-w-285 w-full mx-auto flex flex-col items-center justify-center'>
@@ -16,9 +16,9 @@ const Benefit = () => {
         </Heading>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[27.16px] sm:gap-6 mt-[41.99px] sm:mt-11.5 md:mt-13 lg:mt-15 max-md:pl-[14.3px] max-md:pr-[13.7px]'>
-          {BENEFIT_DATA.map((item) => (
+          {BENEFIT_DATA.map((item, index) => (
 
-            <div key={item.id} className='group border border-pale-silver rounded-lg bg-white pt-8.5 px-4 sm:px-5 md:px-6.75 pb-7 sm:pb-7.5 md:pb-7.75 text-center transition-all duration-500 hover:bg-soft-sea-green cursor-pointer'>
+            <div key={item.id} className={`group border border-pale-silver rounded-lg bg-white pt-8.5 px-4 sm:px-5 md:px-6.75 pb-7 sm:pb-7.5 md:pb-7.75 text-center transition-all duration-500 hover:bg-soft-sea-green cursor-pointer ${index === BENEFIT_DATA.length - 1 ? "md:col-span-2 md:max-w-[356px] md:mx-auto lg:col-span-1 lg:max-w-full" : "" } `}>
               <div className=' relative'>
                 <Image src={item.image} width={178.23} height={185.45} alt={item.title} className='sm:w-[178.23px] w-[162.99px] h-[154.24px] sm:h-[185.45px] mx-auto' />
                 <div className="absolute inset-0 max-w-[122.1px] top-6 sm:left-41 md:left-0 h-[122.1px] z-10">

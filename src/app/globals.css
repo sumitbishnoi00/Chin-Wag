@@ -181,3 +181,19 @@ html {
 
 
 
+@keyframes backToTopPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.back-to-top-animation {
+  animation: backToTopPulse 1.8s ease-in-out infinite;
+}
+
+

@@ -38,12 +38,14 @@ const Hero = () => {
             children={"Introductions that save you money."}
             vari={"pri"}
           />
+          <div className="max-w-100 w-full">
           <Para
             children={
               "Avoid inflated costs, keep your identity hidden while searching for Partners, and get rewarded for paying on-time."
             }
             vari={"pri"}
           />
+          </div>
           <button className="lg:py-[16.5px] md:py-3.75 sm:py-3 py-[11.27px] lg:px-5 md:px-4.75 sm:px-4 px-[15.5px] rounded-[65px] font-normal max-w-max  lg:text-16 md:text-14 sm:text-13 text-12 leading-120 text-white bg-storm-gray lg:mt-4.25 md:mt-4 sm:mt-3.5 mt-2.75 cursor-pointer border border-transparent hover:text-storm-gray hover:bg-white hover:border-storm-gray duration-500 transition-all">
             Publish your Requirement
           </button>
@@ -52,7 +54,7 @@ const Hero = () => {
           src={"/assets/images/webg/hero2.webp"}
           width={111}
           height={112.07}
-          className="animate-rotate-scroll cursor-pointer absolute bottom-0 right-0 max-lg:hidden"
+          className="animate-rotate-scroll cursor-pointer absolute bottom-0 right-6.25 xl:right-0 max-lg:hidden"
         />
       </div>
     </section>
