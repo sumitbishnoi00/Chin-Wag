@@ -142,3 +142,42 @@ html {
 .animate-benefit-right {
   animation: benefitRight 7s ease-in-out infinite;
 }
+
+@keyframes rotateScroll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-scroll {
+  animation: rotateScroll 6s linear infinite;
+}
+
+.animate-rotate-scroll:hover {
+  animation-play-state: paused;
+}
+
+
+
+
+.animate-hero4 {
+  animation: heroPulse 2.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes heroPulse {
+  0%,100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1.10);
+    opacity: .9;
+  }
+}
+
+
+

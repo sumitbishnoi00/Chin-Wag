@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-360 mx-auto flex flex-col items-center justify-center w-full">
         <Image src={"/assets/images/webg/XMLID_1_.webp"} width={206.81} height={199} alt='Footer-logo' className='w-[108.08px] sm:w-35 md:w-42.5 lg:w-[206.81px] ' />
 
-        <button className='py-[18.5px] px-[31.5px] border border-none rounded-[65px] bg-cadet-blue hover:bg-white font-normal text-16 leading-131 text-white hover:text-cadet-blue mt-6.25 sm:mt-7 md:mt-8.5 transition-all duration-500 cursor-pointer'>
+        <button className='py-2 sm:py-3 md:py-4 lg:py-[18.5px] px-4.5 sm:px-6 md:px-6.5 lg:px-[31.5px] border border-none rounded-[81px] md:rounded-[65px] bg-cadet-blue hover:bg-white font-bold md:font-normal text-8 sm:text-12 md:text-14 lg:text-16 leading-131 text-white hover:text-cadet-blue mt-6.25 sm:mt-7 md:mt-8.5 transition-all duration-500 cursor-pointer'>
           Book a Demo
         </button>
       </div>
