@@ -14,7 +14,7 @@ const Hero = () => {
         alt="downarror"
         width={20.54}
         height={151.65}
-        className="animate-hero4 lg:top-0 sm:top-90 top-39 lg:right-0  absolute lg:mr-4  max-lg:ml-2  lg:h-[151.65px] md:h-37 sm:h-30 h-10.25 lg:w-[35.54px] md:w-7 w-auto "
+        className="animate-hero4 lg:top-0 sm:top-90 top-39 lg:right-0  absolute lg:mr-4  max-lg:ml-2  lg:h-[151.65px] md:h-37 sm:h-30 h-10.25 lg:w-[20.54px] md:w-7 w-auto "
       />
 
       <div className="max-w-342.5  relative pl-[17.3px] pr-[16.7px] sm:px-4 w-full mx-auto lg:mt-29.5 md:mt-26 sm:mt-22 mt-12 flex lg:flex-row flex-col lg:pb-35.25 justify-between max-xl:gap-[23.5px]  items-center ">
@@ -52,7 +52,7 @@ const Hero = () => {
           src={"/assets/images/webg/hero2.webp"}
           width={111}
           height={112.07}
-          className="animate-rotate-scroll cursor-pointer absolute bottom-0 right-0 mr-5 max-lg:hidden"
+          className="animate-rotate-scroll cursor-pointer absolute bottom-0 right-0 max-lg:hidden"
         />
       </div>
     </section>
