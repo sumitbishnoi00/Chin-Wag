@@ -5,7 +5,7 @@ import Icon from "../common/Icons";
 const Roadmap = () => {
   return (
     <div>
-      <div className="pt-16.25 sm:pt-20 md:pt-25 lg:pt-33 px-4 pb-[95.96px] sm:pb-25 md:pb-[116.6px] text-center max-w-[1074.1px] w-full mx-auto overflow-hidden">
+      <div className="pt-16.25 sm:pt-20 md:pt-25 lg:pt-33 px-4 pb-[95.96px] sm:pb-30 md:pb-[146.55px] text-center max-w-[1074.1px] w-full mx-auto overflow-hidden">
         <p className="text-storm-gray font-normal text-14 sm:text-18 md:text-xl leading-129 sm:leading-117">
           The Best Business Partnerships
         </p>
