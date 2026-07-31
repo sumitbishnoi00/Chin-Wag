@@ -17,7 +17,7 @@ const FeatureSection = ({
 }) => {
     return (
         <div
-            className={`flex  items-center max-lg:justify-center max-lg:text-center flex-col lg:flex-row xl:gap-[203.5px] lg:gap-9 md:gap-30 sm:gap-25 gap-[80.18px]   ${reverse ? "lg:flex-row-reverse " : ""}`}
+            className={`flex  items-center max-lg:justify-center max-lg:text-center flex-col lg:flex-row xl:gap-[203.5px] lg:gap-9 md:gap-30 sm:gap-25 gap-[39.56px]   ${reverse ? "lg:flex-row-reverse " : ""}`}
         >
 
 
